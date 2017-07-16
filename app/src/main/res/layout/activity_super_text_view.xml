@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context="test.boke.com.myapplication.custo.textview.SuperTextViewActivity">
+
+    <test.boke.com.myapplication.custo.textview.SuperTextView2
+        android:id="@+id/usernaem"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@color/line"
+        stv:sDividerLineType="both"
+        stv:sLeftIconRes="@mipmap/ic_launcher_round"
+        stv:sLeftTextString="账号管理"
+        stv:sRightIconRes="@drawable/arrow_right_red" />
+
+    <test.boke.com.myapplication.custo.textview.SuperTextView2
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dp"
+        stv:sLeftTextSize="16sp"
+        stv:sLeftTextString="账号与安全"
+        stv:sRightIconRes="@drawable/arrow_right_red"
+        stv:sRightTextString="已保护"
+        stv:sRightTvDrawableLeft="@mipmap/ic_launcher_round" />
+
+    <test.boke.com.myapplication.custo.textview.SuperTextView2
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/ic_launcher_round"
+        stv:sLeftTextString="收货地址"
+        stv:sRightIconRes="@drawable/arrow_right_red" />
+
+
+</LinearLayout>

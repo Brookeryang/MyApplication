@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.boke.com.myapplication">
+
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- android:theme="@style/AppTheme"> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 设置页面 -->
+        <activity android:name=".custo.textview.SuperTextViewActivity" />
+        <!-- 可拉伸布局 -->
+        <activity android:name=".coordinator.layout.CoordinatorLayoutActivity" />
+        <!-- 个人主页 -->
+        <activity android:name=".coordinator.layout.MeActivity" />
+        <!-- 编辑 -->
+        <activity android:name=".coordinator.layout.EditActivity" />
+        <!-- 高仿网易严选底部弹出菜单 -->
+        <activity android:name=".shopping.car.ShoppingCartActivity" />
+        <!--启动IM-->
+        <activity android:name=".bk.im.IMStartActivity"></activity>
+    </application>
+
+</manifest>

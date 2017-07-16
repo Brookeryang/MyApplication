@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint_layout_id"
+    tools:context="test.boke.com.myapplication.coordinator.layout.EditActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="83dp"
+        android:layout_height="32dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="151dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView" />
+</android.support.constraint.ConstraintLayout>

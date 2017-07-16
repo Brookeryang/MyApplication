@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test.boke.com.myapplication.custom.widget.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="10dp"
+    custom:leftBackground="@mipmap/left"
+    custom:leftTextColor="@color/colorAccent"
+    custom:rightBackground="@color/colorPrimary"
+    custom:rightText="发布"
+    custom:rightTextColor="@color/colorAccent"
+    custom:title="自定义Title"
+    custom:titleTextColor="#000">
+
+</test.boke.com.myapplication.custom.widget.TopBar>
